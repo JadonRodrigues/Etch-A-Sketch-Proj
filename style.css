@@ -1,0 +1,34 @@
+#Container{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    cursor: crosshair;
+}
+
+.square{
+   border: 1px solid black;
+    
+}
+.btnS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.reset{
+    height: 100px;
+    width: 106.36px;
+}
+#sizeChange{
+    height: 30px;
+    text-align: center;
+}
